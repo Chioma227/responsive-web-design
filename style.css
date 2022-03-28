@@ -1,0 +1,82 @@
+span{
+    color: red;
+}
+.home{
+    color: red; 
+    text-decoration: none; 
+    margin-right: 10px;
+    padding: 5px;
+}
+.about{
+    color: white; 
+    text-decoration: none; 
+    margin-right: 10px;
+    padding: 5px;
+}
+.contact{
+    color: white; 
+    text-decoration: none;
+    margin-right: 10px;
+    padding: 5px;
+}
+.follow{
+    color: white; 
+    text-decoration: none; 
+    margin-right: 10px;
+    padding: 5px;
+}
+.who-we-are{
+    text-align: center;
+}
+.responsive{
+    color: white;
+    text-align: center;
+    margin-top: 70px;
+}
+.design{
+    margin-left: 10px; 
+    color: red;
+}
+.heading2{
+    color: black;
+}
+.a1{
+    background-color: white;
+    color: black;
+    text-align: center;
+    margin: auto;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 1px;
+    margin-top: 30px;
+}
+.nav_area{
+    padding: 5px;
+}
+@media (max-width:425px) {
+    .nav_area{
+        padding: 5px;
+        font-size: 15px;
+    }
+    .design{
+        margin-left: 10px; 
+        color: red;
+        font-size: 15px;
+    }
+}
+@media (max-width:320px) {
+    .nav_area{
+        padding: 5px;
+        font-size: 10px;
+    }
+    .responsive{
+        color: white;
+        text-align: center;
+        margin-top: 70px;
+        font-size: 25px;
+    }
+    .who-we-are{
+        text-align: center;
+        font-size: 15px;
+    }
+}
